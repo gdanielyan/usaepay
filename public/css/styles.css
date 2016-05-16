@@ -1,0 +1,269 @@
+/* Global */
+.container-fluid {
+    padding: 0px;
+}
+/* Navbar */
+.navbar-default {
+    padding: 10px 20px 0px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 3px #000000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    z-index: 5;
+}
+.navbar-default a.navbar-brand {
+    color: #00A293;
+    font-size: 2em;
+    font-family: "Marker felt", Helvetica;
+}
+ul.navbar-nav li {
+    padding: 10px 20px 10px 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000 ;
+    border-bottom: 2px solid #FFFFFF;
+    font-size: 1.2em;
+    font-family: "Avenir Next", Helvetica;
+    text-transform: uppercase;
+    padding: 5px 0px 0px 2px;
+}
+.navbar-default .navbar-nav li a:hover {
+    border-bottom: 2px solid #00A293;
+}
+.navbar-default .navbar-nav li a:focus{
+    border-bottom: 2px solid #00A293;
+}
+.navbar-toggle {
+    margin-right: 25px;
+    border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover {
+    background: #528B8B;
+}
+.navbar-default .navbar-toggle:hover .glyphicon-menu-hamburger {
+    color: #fff;
+}
+.navbar-default .navbar-toggle .glyphicon-menu-hamburger {
+    height: 8px;
+    width: 30px;
+    color: #252525;
+}
+
+/* Intro Content */
+#intro-content {
+    background: black;
+    position: absolute;
+    top: 100px;
+    left: -100px;
+    width: 425px;
+    height: 80px;
+    padding: 50px 0px 0px 60px;
+    transform: rotate(-40deg);
+    background: #00A293;
+    opacity: .85;
+    z-index: 3;
+}
+#intro-content p {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    font-family: "Avenir Next", Helvetica;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Images */
+#art {
+    background-image: url('../images/dancers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    border: 1px solid white;
+    border-bottom-width: 0px;
+}
+#movies {
+    background-image: url('../images/arrow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    border: 1px solid white;
+}
+#sports {
+    background-image: url('../images/kobe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    border: 1px solid white;
+    border-bottom-width: 0px;
+}
+#music {
+    background-image: url('../images/kendrick.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    border: 1px solid white;
+}
+
+.genre {
+    color: #fff;
+    display: none;
+    font-size: 4em;
+    text-align: center;
+    font-family: "Avenir Next";
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px white;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.overlay {
+    transition: all .3s;
+}
+
+.overlay:hover {
+    opacity: .9;
+}
+
+.overlay:hover .genre {
+    display: initial;
+}
+
+/* Marketing */
+#marketing {
+    background: #528B8B;
+}
+
+#marketing p {
+    font-size: 1.8em;
+    color: #fff;
+    font-family: "Avenir Next";
+    padding: 80px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+/* Music Page */
+.backdrop {
+    background: #528B8B;
+}
+.gallery {
+    padding: 100px 0px 200px 0px;
+}
+
+.gallery img {
+    margin-top: 10px;
+}
+
+p.title {
+    color: #fff;
+    font-family: "Avenir Next";
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.music-info {
+    color: #fff;
+    font-size: 1.2em;
+    font-family: "Avenir Next";
+    font-weight: 600;
+}
+
+.dark-teal {
+    background: #528B8B;
+}
+
+/* Coming soon pages */
+.coming-soon {
+    height: 760px;
+}
+
+h1.text-center {
+    font-family: "Avenir Next", Helvetica;
+}
+
+/* Purchase page */
+.purchase-content {
+    padding-top: 80px;
+}
+
+.order-info dt {
+    margin-top: 15px;
+}
+
+.order-info dd {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+/* Forms */
+form {
+    padding: 0px 35px 35px 35px;
+}
+
+.form-control {
+    margin-top: 20px;
+    border-radius: 0px;
+}
+
+button.dropdown-toggle {
+    border-radius: 0px;
+}
+
+/* Confirmation */
+.confirmation {
+    padding: 80px;
+    height: 680px;
+}
+
+.confirmation dt, .confirmation dd {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.confirmation p {
+    color: #fff;
+}
+
+/* Footer */
+#footer {
+    color: white;
+    background: #252525;
+    font-size: 1.2em;
+    letter-spacing: 1.4px;
+    padding: 60px;
+    font-family: "Avenir Next";
+}
+
+#footer img {
+    margin-top: 20px;
+}
+
+#footer ul {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 992px){
+    #footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    #marketing p {
+        padding: 30px 0px;
+    }
+    .order-info {
+        margin-bottom: 60px;
+    }
+    .gallery 
+}
