@@ -44,9 +44,9 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <input type="text" name="billing_addr" class="form-control" placeholder="Billing Adress" id="bill_addr" required>
-                                    <input type="text" name="city" value="" class="form-control" placeholder="City" id="bill_city" required>
-                                    <input type="text" name="state" class="form-control" placeholder="State" id="bill_state" required>
-                                    <input type="text" name="zip" class="form-control" placeholder="Zip" id="bill_zip" required>
+                                    <input type="text" name="bill_city" value="" class="form-control" placeholder="City" id="bill_city" required>
+                                    <input type="text" name="bill_state" class="form-control" placeholder="State" id="bill_state" required>
+                                    <input type="text" name="bill_zip" class="form-control" placeholder="Zip" id="bill_zip" required>
                                 </div>
                             </div>
                         </div>
@@ -60,9 +60,9 @@
                                       </label>
                                     </div>
                                     <input type="text" name="shipping_addr" value="" class="form-control" placeholder="Shipping Address" id="ship_addr">
-                                    <input type="text" name="city" value="" class="form-control" placeholder="City" id="ship_city">
-                                    <input type="text" name="state" class="form-control" placeholder="State" id="ship_state">
-                                    <input type="text" name="zip" class="form-control" placeholder="Zip" id="ship_zip">
+                                    <input type="text" name="ship_city" value="" class="form-control" placeholder="City" id="ship_city">
+                                    <input type="text" name="ship_state" class="form-control" placeholder="State" id="ship_state">
+                                    <input type="text" name="ship_zip" class="form-control" placeholder="Zip" id="ship_zip">
                                     <input type="submit" value="Complete purchase" class="btn btn-success form-control" name="">
                                 </div>
                             </div>
